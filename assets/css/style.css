@@ -1,0 +1,90 @@
+ body{
+background-color:black}
+ 
+
+/* header{
+    background-color: #010202;
+} */
+
+
+
+/* :root{
+    --primary-color : #032541 ;
+    --secondary-color : #373b59 ;
+    --color-dark : #fff ;
+    --color-white : #000 ;
+
+} */
+
+
+.logo{
+    display: inline-block;
+    width: 120px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.movieimg{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+  
+}
+
+
+.moviecard{
+    height: 350px;
+     margin: 0;
+    overflow: hidden;
+    position: relative;
+     
+}
+
+  
+.titleinfo{
+    position: absolute;
+    height: 30%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2898a4;
+    color: beige;
+    padding: 20px;
+}
+
+
+.overview{
+position: absolute;
+height: 70%;
+top: 30%;
+padding: 10px;
+background-color:darkblue;
+overflow: auto;
+/* transform: translateY(130%); */
+transform: scale(0);
+opacity: 0;
+transition: all 0.4s ease-in-out;
+color: white;
+}
+
+
+.moviecard:hover .overview{
+    /* transform: translateY(0%); */
+    transform: scale(1);
+    opacity: .6;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
